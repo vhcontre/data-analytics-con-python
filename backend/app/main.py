@@ -47,14 +47,15 @@ app.add_middleware(
 )
 
 BASE_DIR = Path(__file__).resolve().parent
-app.mount("/static", StaticFiles(directory=BASE_DIR / "static"), name="static")
+STATIC_DIR = BASE_DIR / "static"
+if STATIC_DIR.exists():
+    app.mount("/static", StaticFiles(directory=STATIC_DIR), name="static")
 
 # Incluir routers
 app.include_router(auth.router, prefix="/auth", tags=["Autenticación"])
 app.include_router(usuarios.router, prefix="/usuarios", tags=["Usuarios"])
 app.include_router(productos.router, prefix="/productos", tags=["Productos"])
 app.include_router(admin.router, prefix="/admin", tags=["Administración"])
-app.include_router(auth.router, prefix="/auth", tags=["Autenticación"])
 
 
 def custom_openapi():
