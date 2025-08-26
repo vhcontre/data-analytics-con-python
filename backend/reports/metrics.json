@@ -1,0 +1,32 @@
+{
+  "rows": 50,
+  "average_base_yield": 74.4006216694843,
+  "total_cost": 2879.227457520868,
+  "average_environmental_impact": 2.379964876398455,
+  "by_category": {
+    "Beverage": {
+      "count": 12,
+      "AvgYield": 72.72467219692417,
+      "TotalCost": 745.9123190845272,
+      "AvgEnvImpact": 2.465822094135825
+    },
+    "Food": {
+      "count": 8,
+      "AvgYield": 75.5761419368502,
+      "TotalCost": 533.3360209718911,
+      "AvgEnvImpact": 2.2440413880156713
+    },
+    "Other": {
+      "count": 16,
+      "AvgYield": 69.48243276275575,
+      "TotalCost": 806.6942284342053,
+      "AvgEnvImpact": 2.0155847897555077
+    },
+    "Supplement": {
+      "count": 14,
+      "AvgYield": 80.7862112437308,
+      "TotalCost": 793.2848890302445,
+      "AvgEnvImpact": 2.8004779250056684
+    }
+  }
+}

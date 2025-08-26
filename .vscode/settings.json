@@ -1,4 +1,15 @@
 {
-    "python-envs.defaultEnvManager": "ms-python.python:system",
-    "python-envs.pythonProjects": []
+    "python.pythonPath": ".venv/Scripts/python.exe",
+    "python.linting.enabled": true,
+    "python.linting.ruffEnabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.analysis.typeCheckingMode": "basic",
+    "editor.formatOnSave": false,
+    "editor.minimap.enabled": false,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 2000,
+    "git.autorefresh": false,
+    "git.autofetch": false,
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false
 }
