@@ -1,0 +1,46 @@
+\data-analytics-con-python
+|   .env
+|   .gitignore
+|   changelog.md
+|   estructura.txt
+|   README.md
+|   requirements.txt
+|   
++---.github
+|   \---workflows
+|           ci.yml|           
+\---backend
+    |           
+    +---alembic
+    +---app
+    |   |   
+    |   +---api
+    |   +---console
+    |   +---core
+    |   +---db
+    |   |   +---models
+    |   +---dependencies
+    |   +---domain
+    |   |   +---mappers
+    |   |   +---models
+    |   +---repositories
+    |   +---routers
+    |   +---schemas
+    |   +---scripts
+    |   +---security
+    |   +---services
+    |   +---static
+    |   +---templates
+    |   +---utils
+    +---notebooks
+    |       data_analytics_con_python.ipynb
+    +---tests
+    |   +---api
+    |   +---db
+    |   +---domain
+    |   +---integration
+    |   +---repositories
+    |   +---schemas
+    |   +---security
+    |   +---services
+    |   \---web    
